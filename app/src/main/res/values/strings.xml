@@ -1,0 +1,11 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">EarthquakeActivity</string>
+
+
+    <string name="Puissance">Puissance </string>
+    <string name="Adresse">Adresse</string>
+    <string name="Date">Date</string>
+    <string name="Mois">mois</string>
+    <string name="year">year</string>
+
+</resources>
