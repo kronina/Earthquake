@@ -43,10 +43,14 @@ public class EarthquakeAdapter extends ArrayAdapter <Earthquake>{
 
                 // Get the {@link Word} object located at this position in the list
                 Earthquake currentEartQ = getItem(position);
+    //long positonL= currentEartQ.
 
         TextView TVPuis;
         TVPuis = (TextView) listItemView.findViewById( R.id.idPuissance );
-        TVPuis.setText( new DecimalFormat("#.00").format(currentEartQ.getPuissance()));
+
+        //        TVPuis.setText( new DecimalFormat("#.00").format(currentEartQ.getPuissance()));
+        TVPuis.setText( currentEartQ.getPuissance());
+
         TextView TvDres =
                 TvDres =listItemView.findViewById( R.id.idAdresse);
 

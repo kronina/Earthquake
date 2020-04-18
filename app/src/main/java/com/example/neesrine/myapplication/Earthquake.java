@@ -1,5 +1,6 @@
 package com.example.neesrine.myapplication;
 
+import java.util.Date;
 import java.util.Scanner;
 
 /**
@@ -51,5 +52,13 @@ public class Earthquake {
     public String getDate()
     {
      return  this.date;
+    }
+    public Long getDecimal ()
+    {
+        return Long.valueOf( 0 )/*etPuissance()*/;
+    }
+    public Date getDATE ()
+    {
+        return (Date)getDATE();
     }
 }
